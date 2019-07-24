@@ -8,9 +8,9 @@
 		<version>2.1.5.RELEASE</version>
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo-gateway-error</artifactId>
+	<artifactId>demo-gateway-error-micro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo-gateway-error</name>
+	<name>demo-gateway-error-micro</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -20,8 +20,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-gateway</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 
 		<dependency>

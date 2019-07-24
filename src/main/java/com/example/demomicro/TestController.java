@@ -1,6 +1,5 @@
-package com.example.demogateway;
+package com.example.demomicro;
 
-import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.http.MediaType;
 import org.springframework.http.codec.multipart.FilePart;
 import org.springframework.http.codec.multipart.Part;
@@ -15,7 +14,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-@TestConfiguration
 @RestController
 @RequestMapping("/test")
 public class TestController {
